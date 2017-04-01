@@ -1,10 +1,6 @@
 {
   "name": "themelogy/saygili-theme",
-  "type": "asgard-theme",
   "description": "",
-  "keywords": [
-    "asgard-cms"
-  ],
   "license": "MIT",
   "require": {
     "php": ">=5.5",
