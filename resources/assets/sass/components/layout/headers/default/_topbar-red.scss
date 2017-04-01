@@ -1,0 +1,28 @@
+// Top Menu
+$topbar_class:																'red';
+$topbar_bg-color:															map-get($theme-colors, 'red4');
+$topbar_collapse-bg-color:													map-get($theme-colors, 'red4');
+$topbar_border:																1px solid rgba(#8797ae, 0.15);
+$topbar_font-color: 														map-get($theme-colors, 'white1');
+$topbar_font-color-on-hover: 												map-get($theme-colors, 'white1');
+
+$topbar_icon-font-color:													map-get($theme-colors, 'white1');
+$topbar_icon-font-color-on-hover:											darken($topbar_icon-font-color, 20%);
+
+$topbar_language-bar-bg-color:												darken($topbar_bg-color, 10%);
+$topbar_language-bar-bg-color-on-hover:										map-get($theme-colors, 'white1');
+$topbar_language-bar-font-color:                                            darken($topbar_font-color, 10%);
+$topbar_language-bar-font-color-on-hover:                                   $topbar_language-bar-bg-color;
+
+$topbar_language-menu-bg-color: 											$topbar_language-bar-bg-color-on-hover;
+$topbar_language-menu-link-font-color:										darken($topbar_language-menu-bg-color, 45%);
+$topbar_language-menu-link-font-color-on-hover:								darken($topbar_language-menu-bg-color, 50%); 
+$topbar_language-menu-link-bg-color-on-hover:								darken($topbar_language-menu-bg-color, 4%);   
+
+@import  'theme/_topbar';       
+
+.c-layout-header {
+	.c-topbar-#{$topbar_class}.c-solid-bg {		
+		background: $topbar_collapse-bg-color;
+	}
+}

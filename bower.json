@@ -1,0 +1,24 @@
+{
+  "name": "Saygili",
+  "authors": [
+    "sagsoz06 <designer@visualturk.net>"
+  ],
+  "description": "Saygili Theme",
+  "main": "",
+  "license": "MIT",
+  "homepage": "http://www.visualturk.com",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "^3.3.7"
+  },
+  "devDependencies": {
+    "semantic-ui-sass": "*",
+    "owl.carousel": "^2.2.0"
+  }
+}
